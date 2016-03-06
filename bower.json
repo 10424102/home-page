@@ -1,0 +1,33 @@
+{
+  "name": "home-page",
+  "version": "1.1.0",
+  "authors": [
+    "Ke Sun <tdxt6409fch@163.com>"
+  ],
+  "description": "Project-W Home Page",
+  "keywords": [
+    "bootstrap",
+    "home page"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "*.iml",
+    "src",
+    "package.json",
+    "docs",
+    "_config.yml",
+    "Gruntfile.js",
+    "grunt"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "fontawesome": "~4.3.0",
+    "html5shiv": "^3.7.3",
+    "respond": "^1.4.2",
+    "jquery": "^2.2.1"
+  }
+}

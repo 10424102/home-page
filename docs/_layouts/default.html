@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>{{ page.title }}</title>
+
+  <link href="{{ page.basePath }}/assets/css/pygments-manni.css" rel="stylesheet">
+
+  <!-- main -->
+  <script src="{{ page.basePath }}/dist/js/project-w-ui.js"></script>
+  <link rel="stylesheet" href="{{ page.basePath }}/dist/css/project-w-ui.css">
+  <link rel="stylesheet" href="{{ page.basePath }}/dist/css/project-w-ui-home.css">
+
+  <!--[if lt IE 9]>
+  <script src="{{ page.basePath }}/dist/js/html5shiv.min.js"></script>
+  <script src="{{ page.basePath }}/dist/js/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body id="home">
+
+{{ content }}
+
+</body>
+
+</html>
+
